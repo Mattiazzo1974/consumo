@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumo.com_litros</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>consumo.com</h1>
+    </header>
+    <main>
+        <nav id="menu" class="box">
+            <a href="index.html">INÍCIO</a>
+            <a href="media.html">MÉDIA</a>
+            <a href="distancia.html">DISTÂNCIA</a>
+        </nav>
+        <form action="litros" class="box">
+            <h4>LITROS:</h4>
+            <label for="distancia_litros">km a rodadar (km): </label>
+            <input type="number" id="distancia_litros" name="distancia_litros" value="">
+            <label for="consumo_litros">Consumo médio (km/L): </label>
+            <input type="number" id="consumo_litros" name="consumo_litros" value="">
+            <button type="reset"  name="limpar" value="limpar">LIMPAR</button>
+            <button onclick="litros()">CALCULAR</button>
+        </form>
+        <section id="anuncio" class="box">
+            <p>[espaço reservado para anúncio]</p>
+        </section>
+   </main>
+ <aside class="box">
+    <h3>O que pode fazer o seu carro consumir mais combustível do que deveria?</h3>
+    <ul>
+        <li>Pneus murchos</li>
+        <li>Alta velocidade</li>
+        <li>Ar-condicionado ligado</li>
+        <li>Temperatura ambiente</li>
+        <li>Rodas desalinhadas</li>
+        
+    </ul>
+    <ul>
+        <li>Carga em excesso</li>
+        <li>Combustível adulterado</li>
+        <li>Filtro de ar sujo</li>
+        <li>obina defeituosa</li>
+        <li>Velas sujas</li>
+    </ul>
+ </aside>
+   <footer>
+        <h4><strong>consumo.com</strong> &copy;2023</h4>
+   </footer>
+</body>
+</html>
